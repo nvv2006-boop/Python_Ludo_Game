@@ -72,61 +72,61 @@ new_roll = [False]
 game_window = tk.Tk()
 
 ####### Images ########
-imgbs= Image.open(r"Ludo Images\blue_square.png")
+imgbs= Image.open(r"Ludo Images/blue_square.png")
 blue_square = ImageTk.PhotoImage(imgbs)
 
-imggs= Image.open(r"Ludo Images\green_square.png")
+imggs= Image.open(r"Ludo Images/green_square.png")
 green_square = ImageTk.PhotoImage(imggs)
 
-imgys= Image.open(r"Ludo Images\yellow_square.png")
+imgys= Image.open(r"Ludo Images/yellow_square.png")
 yellow_square = ImageTk.PhotoImage(imgys)
 
-imgrs= Image.open(r"Ludo Images\red_square.png")
+imgrs= Image.open(r"Ludo Images/red_square.png")
 red_square = ImageTk.PhotoImage(imgrs)
 
-imgws= Image.open(r"Ludo Images\white_square.png")
+imgws= Image.open(r"Ludo Images/white_square.png")
 white_square = ImageTk.PhotoImage(imgws)
 
-imgwc = Image.open(r"Ludo Images\white_circle.png")
+imgwc = Image.open(r"Ludo Images/white_circle.png")
 white_circle = ImageTk.PhotoImage(imgwc)
 
-imgrc = Image.open(r"Ludo Images\red_circle.png")
+imgrc = Image.open(r"Ludo Images/red_circle.png")
 red_circle = ImageTk.PhotoImage(imgrc)
 
-imggc = Image.open(r"Ludo Images\green_circle.png")
+imggc = Image.open(r"Ludo Images/green_circle.png")
 green_circle = ImageTk.PhotoImage(imggc)
 
-imgyc = Image.open(r"Ludo Images\yellow_circle.png")
+imgyc = Image.open(r"Ludo Images/yellow_circle.png")
 yellow_circle = ImageTk.PhotoImage(imgyc)
 
-imgbc = Image.open(r"Ludo Images\blue_circle.png")
+imgbc = Image.open(r"Ludo Images/blue_circle.png")
 blue_circle = ImageTk.PhotoImage(imgbc)
 
-imgmm = Image.open(r"Ludo Images\middle split square.png")
+imgmm = Image.open(r"Ludo Images/middle split square.png")
 middle_middle = ImageTk.PhotoImage(imgmm)
 
-imgbl = Image.open(r"Ludo Images\middle_bottom_left.png")
+imgbl = Image.open(r"Ludo Images/middle_bottom_left.png")
 bottom_left = ImageTk.PhotoImage(imgbl)
 
-imgbr = Image.open(r"Ludo Images\middle_bottom_right.png")
+imgbr = Image.open(r"Ludo Images/middle_bottom_right.png")
 bottom_right = ImageTk.PhotoImage(imgbr)
 
-imgtl = Image.open(r"Ludo Images\middle_left_corner.png")
+imgtl = Image.open(r"Ludo Images/middle_left_corner.png")
 top_left = ImageTk.PhotoImage(imgtl)
 
-imgtr = Image.open(r"Ludo Images\middle_yellow_blue.png")
+imgtr = Image.open(r"Ludo Images/middle_yellow_blue.png")
 top_right = ImageTk.PhotoImage(imgtr)
 
-imggt = Image.open(r"Ludo Images\green_star.png")
+imggt = Image.open(r"Ludo Images/green_star.png")
 green_star = ImageTk.PhotoImage(imggt)
 
-imgyt = Image.open(r"Ludo Images\yellow_star.png")
+imgyt = Image.open(r"Ludo Images/yellow_star.png")
 yellow_star = ImageTk.PhotoImage(imgyt)
 
-imgbt = Image.open(r"Ludo Images\blue_star.png")
+imgbt = Image.open(r"Ludo Images/blue_star.png")
 blue_star = ImageTk.PhotoImage(imgbt)
 
-imgrt = Image.open(r"Ludo Images\red_star.png")
+imgrt = Image.open(r"Ludo Images/red_star.png")
 red_star = ImageTk.PhotoImage(imgrt)
 
 colors = {'blue':blue_circle,'green':green_circle, 'red':red_circle, 'yellow':yellow_circle}
